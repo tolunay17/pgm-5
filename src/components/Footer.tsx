@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './Footer.css';
+import styles from './Footer.module.css';
 
-function Footer () {
+const Footer = () => {
 
   return (
-    <section className="footer">
+    <section className={styles.footer}>
       <hr className="footer-seperator" />
       <section className="footer-social-media">
         <a href="/" target="_blank" rel="noopener noreferrer">LinkedIn</a>

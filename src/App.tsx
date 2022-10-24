@@ -4,11 +4,13 @@ import Home from './components/HomeNavigation'
 import MainNavigation from './components/Navigation'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navigation from './components/Navigation';
+import Footer  from './components/Footer';
 
 function App() {
   return (
     <div className="App">
         <Router>
+          <Footer/>
             <Navigation />
             <Switch>
                 <Route exact path='/' component={Home}/>
