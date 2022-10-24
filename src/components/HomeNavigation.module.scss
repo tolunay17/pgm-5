@@ -3,8 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+.searchBalk {
+    .search_nav {
+        border-radius: 1rem;
+        border: 1px solid #707070;
+        padding: 0.5rem 1rem;
+        padding-left: 2.5rem;
+        cursor: pointer;
+        background-position: 1rem 0.5rem;
+        background-size: 1rem;
+        background-repeat: no-repeat;
+    }
+}
 img {
-    width: 2rem;
+    width: 5rem;
+    padding: 1rem;
 }
 nav {
     width: 100%;
@@ -25,6 +38,10 @@ nav {
 
     }
     @media (min-width: 40rem) {
+        .search_nav {
+            width: 100%;
+            margin: 0;
+        }
         .friendly_nav {
             display: flex;
             justify-content: space-between;
