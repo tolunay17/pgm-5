@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { useState } from 'react'
-import Home from './components/Home'
+import Home from './components/HomeNavigation'
 import MainNavigation from './components/Navigation'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navigation from './components/Navigation';
